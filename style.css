@@ -1,0 +1,299 @@
+/*body*/
+.wrapper{width: 1280px;margin: 0 auto;}
+
+/*header*/
+header{
+  width: 1280px;
+  height: 671px;
+  position: relative;
+}
+.header_bg{
+  width: 1280px;
+  height: 671px;
+}
+.header_logo{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.header_logo img{height: 50px;}
+.header_text{
+  position: absolute;
+  top: 150px;
+  left: 200px;
+}
+.header_text img{width: 347px;height: 151px;}
+.header_login{
+  width: 368px;
+  height: 380px;
+  background-color: #fff;
+  position: absolute;
+  top: 130px;
+  right: 170px;
+}
+.header_login_tab{
+  height: 62px;
+  line-height: 62px;
+}
+.header_login_tab li{
+  float: left;
+  font-size: 14px;
+  width: 33.33%;
+  text-align: center;
+}
+.header_login_tab li a{
+  padding-bottom: 15px;
+}
+.header_login_tab li a.current{
+  color: #457eff;
+  border-bottom: 2px solid #457eff;
+}
+.header_login_tab li a:hover{
+  color: #457eff;
+  border-bottom: 2px solid #457eff;
+}
+.header_login_form{
+  margin-top: 20px;
+  padding: 0 20px;
+}
+.header_login_form p{
+  color: #000;
+}
+.header_login_form input{
+  width: 100%;
+  height: 50px;
+  color: #dedede;
+  font-size: 14px;
+  border-bottom: 1px solid;
+  outline: 0;
+}
+.header_login_form input:focus{
+  border-bottom: 1px solid #457eff;;
+}
+.header_login_form .phone{
+  background: url(images/icon1.png) no-repeat left center;
+  margin: 20px 0 15px 0;
+  text-indent: 2em;
+}
+.password_box{
+  position: relative;
+}
+.password_box .password{
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.password_box button{
+  color: #457eff;
+  font-size: 14px;
+  padding: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 0;
+}
+.header_login_form .submit{
+  color: #fff;
+  background-color: #457eff;
+  border: 0;
+  border-radius: 3px;
+}
+.header_login_form .submit:hover{
+  background-color: #235ddd;
+}
+.header_login_form .explain{
+  display: block;
+  margin-top: 25px;
+}
+.header_login_form .explain a{
+  color: #457eff;
+}
+.section1_box .video{
+  width: 640px;
+  height: 337px;
+  position: relative;
+}
+.section1_box .content{
+  width: 600px;
+}
+.section1_box .video img{
+  width: 600px;
+  height: 337px;
+}
+.section1_box > div{
+  float: left;
+}
+.section1 h2, .section2 h2, .section3 h2, .section4 h2{
+  font-size: 36px;
+  padding: 110px 0 60px;
+  text-align: center;
+}
+.section1 .content{
+  font-size: 24px;
+  text-align: left;
+  padding: 0 20px;
+}
+.video .video_play{
+  width: 100px;
+  height: 100px;
+  background-color: #666;
+  opacity: 0.7;
+  border-radius: 50%;
+  outline: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 110px;
+  left: 250px;
+}
+.video .video_play:hover{
+  background-color: #333;
+  opacity: 0.7;
+}
+.video_play_img{
+  display: block;
+  margin-left: 33px;
+  border-left: 25px solid #ffffff;
+  border-bottom: 15px solid transparent;
+  border-top: 15px solid transparent;
+}
+.section2_list{
+  
+}
+.section2_list li{
+  float: left;
+  width: 20%;
+  padding: 60px 40px 50px;
+  box-sizing: border-box;
+}
+.section2_list li span{
+  font-size: 14px;
+  font-weight: 100;
+}
+.section2_list li h3{
+  font-size: 24px;
+  margin: 25px 0 30px;
+}
+.section2_list li p{
+  height: 50px;
+  margin-bottom: 90px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.section2_list img{
+  margin: 0 auto;
+}
+.section2_list li:nth-child(odd){
+  background-color: #fcfcfc;
+}
+.section2_list li:nth-child(2n){
+  background-color: #f7f7f7;
+}
+
+.section3_content{
+  margin-top: 50px;
+  position: relative;
+}
+.section3_list{
+  padding: 50px 0;
+  background-color: #fafafa;
+}
+.section3_list ul{
+  width: 1080px;
+  margin: 0 auto;
+  position: relative;
+}
+.section3_list ul li{
+  cursor: pointer;
+  padding-left: 50px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.section3_list ul li:last-child{
+  margin-bottom: 0;
+}
+.section3_list ul li::before{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  content: '';
+  border-radius: 50%;
+  background-color: #d8d8d8;
+  position: absolute;
+  top: 30px;
+  left: 0;
+}
+.section3_list ul li.current h3, .section3_list ul li.current p{
+  color: #457eff;
+}
+.section3_list ul li.current::before{
+  background-color: #457eff;
+}
+.section3_list ul li h3{
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.section3_list ul li p{
+  font-size: 18px;
+  font-weight: 300;
+}
+.section3_imgshow{
+  width: 550px;
+  height: 580px;
+  position: absolute;
+  top: -58px;
+  right: 40px;
+}
+.section3_imgshow img{
+  width: 496px;
+  height: 580px;
+}
+.section4{
+  width: 1200px;
+  margin: 0 auto;
+}
+.section4 ul{}
+.section4 ul li{
+  float: left;
+  width: 400px;
+  padding: 20px 0 20px 200px;
+  box-sizing: border-box;
+  position: relative;
+}
+.section4 ul li h3{
+  color: #000;
+  font-size: 24px;
+  margin: 20px 0 14px 0;
+}
+.section4 ul li p{
+  font-size: 16px;
+}
+.brand{
+  position: absolute;
+  top: 30px;
+  left: 80px;
+}
+.brand img{
+  width: 90px;
+  height: 90px;
+}
+.bottom_btn{
+  width: 220px;
+  height: 60px;
+  line-height: 68px;
+  text-align: center;
+  background-color: #417aff;
+  border-radius: 40px;
+  margin: 50px auto;
+}
+.btn{
+  padding: 0;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  background: 0;
+  outline: 0;
+}
+.bottom_btn:hover{
+  background-color: #2861da;
+}
